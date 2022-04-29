@@ -12,7 +12,7 @@ export default function Todos() {
         {todos.map((todo) => (
           <li key={todo.id}>
             <span>{todo.text}</span>
-            <button onClick={() => dispatch(deleteTodo(todo.id))}>X</button>
+            <button onClick={() => dispatch(deleteTodo(todo.id))}>E</button>
             <button onClick={() => dispatch(deleteTodo(todo.id))}>X</button>
           </li>
         ))}
