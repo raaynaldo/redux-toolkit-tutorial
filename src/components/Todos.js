@@ -1,9 +1,8 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
 import Todo from './Todo';
 
 export default function Todos() {
-  const todos = useSelector((state) => state.todos);
+  // 🐽 update the todos below, and get the data from redux
+  const todos = [{ id: 1, text: 'this is hardcoded data' }];
 
   return (
     <div>
